@@ -24,21 +24,12 @@ const About = () => {
           readable content.
         </p>
         <p className="a-desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat duis aute irure dolor in reprehende.
+        "Hello! I'm Naveed, a React specialist, and MERN stack developer.
+         With Django expertise, I craft visually stunning and functional 
+         web apps. Let's collaborate and create extraordinary web experiences.
+          Explore my portfolio for a glimpse of my work!
         </p>
-        <div className="a-award">
-          <img src={Award} alt="" className="a-award-img" />
-          <div className="a-award-texts">
-            <h4 className="a-award-title">International Design Awards 2021</h4>
-            <p className="a-award-desc">
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur autodit
-              and fugit.
-            </p>
-          </div>
-        </div>
+        
       </div>
     </div>
   );
