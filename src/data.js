@@ -7,6 +7,7 @@ export const products = [
     img: wayfarer,
     link: "https://wayfarer-world.vercel.app",
   },
+
   {
     id: 2,
     img: task,
