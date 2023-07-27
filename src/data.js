@@ -7,9 +7,14 @@ export const products = [
     img: wayfarer,
     link: "https://wayfarer-world.vercel.app",
   },
-
   {
     id: 2,
+    img: task,
+    link: "https://crypto-tracker-lime-phi.vercel.app/",
+  },
+
+  {
+    id: 3,
     img: task,
     link: "https://task-mastery.vercel.app/",
   },
