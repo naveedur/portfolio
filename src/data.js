@@ -1,5 +1,7 @@
 import task from './img/project/taskMastry.png'
 import wayfarer from './img/project/wayfarer.png'
+import crypto from './img/project/crypto.png'
+
 
 export const products = [
   {
@@ -9,7 +11,7 @@ export const products = [
   },
   {
     id: 2,
-    img: task,
+    img: crypto,
     link: "https://crypto-tracker-lime-phi.vercel.app/",
   },
 
