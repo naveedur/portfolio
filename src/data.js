@@ -15,11 +15,8 @@ export const products = [
     id: 2,
     img: imageGenerator,
     link: "https://image-generator-wine.vercel.app/",
-<<<<<<< HEAD
   },
-=======
-  }
->>>>>>> d6fbdc0ad32662ea23ce37d2f70be13ec26c0de5
+  
   {
     id: 3,
     img: crypto,
