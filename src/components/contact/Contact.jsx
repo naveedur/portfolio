@@ -11,21 +11,27 @@ const Contact = () => {
   const [done, setDone] = useState(false)
   // const theme = useContext(ThemeContext);
   // const darkMode = theme.state.darkMode;
+  const resetForm = () => {
+    // Clearing the form inputs by accessing the DOM elements
+    formRef.current.user_name.value = "";
+    formRef.current.user_subject.value = "";
+    formRef.current.user_email.value = "";
+    formRef.current.message.value = "";
+  };
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(formRef.current.user_name.value)
 
     emailjs
       .sendForm(
-        "service_rrvnzco",
-        "template_3v5nih4",
+        "service_qid0mhg",
+        "template_406y4dc",
         formRef.current,
-        "user_DrriDPTGKO2Zj4RDXCA6W"
+        "tfw1OzXfHssbsqUC_"
       )
       .then(
         (result) => {
-          console.log(result.text);
           setDone(true)
+          resetForm();
         },
         (error) => {
           console.log(error.text);
